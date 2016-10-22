@@ -1,0 +1,90 @@
+swagger: '2.0'
+
+################################################################################
+# Metadata
+################################################################################
+info:
+  version: "0.0.1"
+  title: wealthstream-model
+
+################################################################################
+# Object definitions
+################################################################################
+definitions:
+  UtilityFunction:
+    type: object
+    properties:
+      points:
+        type: array
+        minItems: 2
+        uniqueItems: true
+        items:
+          type: object
+          properties:
+            wealth: 
+              type: number
+              minimum: 0
+            utility:
+              type: number
+  SpendingObjective:
+    type: object
+    properties:
+      name:
+        type: string
+      utility:
+        $ref: '#/definitions/UtilityFunction'
+  SpendingAction:
+    type: object
+    properties:
+      objective:
+        $ref: '#/definitions/SpendingObjective'
+      wealth-spent:
+        type: number
+        minimum: 0
+      utility-received:
+        type: number
+  SpendingBasket:
+    type: object
+    properties:
+      spending-actions:
+        type: array
+        items:
+          $ref: '#/definitions/SpendingAction'
+      total-wealth-spent:
+        type: number
+        minimum: 0
+      total-utility-received:
+        type: number
+
+################################################################################
+# API paths
+################################################################################
+paths:
+  /getutilization:
+    get:
+      description:
+        'Gets a spending basket of `SpendingAction` objects.'
+      parameters:
+        - name: wealth
+          in: query
+          description: Dollar amount of wealth
+          required: true
+          schema:
+            type: number
+            format: double
+            minimum: 0
+        - name: spending-objectives
+          in: query
+          description: List of spending objectives
+          required: yes
+          schema:
+            type: array
+            uniqueItems: true
+            items:
+              $ref: '#/definitions/SpendingObjective'
+            
+      responses:
+        200:
+          description: Successful optimization
+          schema:
+            $ref: '#/definitions/SpendingBasket'
