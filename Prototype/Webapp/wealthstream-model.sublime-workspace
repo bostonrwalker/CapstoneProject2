@@ -1,0 +1,334 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sen",
+				"sentences"
+			],
+			[
+				"spe",
+				"spelt_sentences"
+			],
+			[
+				"se",
+				"sentences"
+			],
+			[
+				"for",
+				"formatted_para"
+			],
+			[
+				"fo",
+				"formatted_para"
+			],
+			[
+				"pr",
+				"processed_paragraph"
+			],
+			[
+				"cr",
+				"critique"
+			],
+			[
+				"ch",
+				"char_indices"
+			],
+			[
+				"out",
+				"output_lines"
+			],
+			[
+				"std",
+				"std_lines"
+			],
+			[
+				"st",
+				"std_line"
+			],
+			[
+				"all",
+				"all_input"
+			],
+			[
+				"fin",
+				"find_page_urls"
+			],
+			[
+				"pa",
+				"page_urls"
+			],
+			[
+				"ar",
+				"archive_urls"
+			],
+			[
+				"f",
+				"filled_files"
+			],
+			[
+				"write",
+				"write_review_to_file"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"bac",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\nurl = 'localhost:5000'\n\n\n\n\n",
+			"file": "test_get_wealth_utilization.py",
+			"file_size": 3,
+			"file_write_time": 131216485060000000,
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "package con",
+		"selected_items":
+		[
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"remote",
+				"Remote: Connect to Session"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/train.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/test_img_description.json",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/get_critique.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/requirements.txt",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/train2.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/test_img_digest.json",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/train2,py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/scrape_art_review_archive.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/compile_data.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/scrape_art_review.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/convert_to_parseable.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/data/all-reviews-parseable.txt",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/src/python/scrape_art_website.py",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/data/review_urls.txt",
+		"/Users/bostonwalker/Desktop/Google Drive/bb/player_page_index.py",
+		"/Users/bostonwalker/Desktop/Google Drive/Capstone/www/js/script.js",
+		"/Users/bostonwalker/Desktop/Google Drive/Capstone/www/css/style.css",
+		"/Users/bostonwalker/Desktop/DIYHood/Critic/CriticModel/data/all-reviews.txt",
+		"/Users/bostonwalker/Desktop/Google Drive/bb/box_score.py",
+		"/Users/bostonwalker/Desktop/Google Drive/bb/player_page.py",
+		"/Users/bostonwalker/Desktop/Google Drive/bb/scrape_all_players.py",
+		"/Users/bostonwalker/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bostonwalker/Desktop/Google Drive/Website/style.css",
+		"/Users/bostonwalker/Desktop/Google Drive/Website/miserables.js",
+		"/Users/bostonwalker/Desktop/Google Drive/Website/script.js",
+		"/Users/bostonwalker/Desktop/Google Drive/Website/nodes.json",
+		"/Users/bostonwalker/Desktop/Google Drive/Website/index.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"”",
+			"“",
+			"”",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test_get_wealth_utilization.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wealthstream-model.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
