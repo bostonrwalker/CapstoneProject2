@@ -14,17 +14,19 @@ definitions:
   UtilityFunction:
     type: object
     properties:
-      points:
+      initialUtility: # utility of zero wealth
+        type: number
+      slopes:
         type: array
-        minItems: 2
+        minItems: 1
         uniqueItems: true
         items:
           type: object
           properties:
-            wealth: 
+            deltaWealth: # change in wealth
               type: number
               minimum: 0
-            utility:
+            deltaUtility: # change in utility
               type: number
   SpendingObjective:
     type: object
