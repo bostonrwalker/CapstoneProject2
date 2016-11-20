@@ -7,10 +7,10 @@ const WSTheme = getMuiTheme({
   },
   palette: {
   	primary1Color: "#00897B",
-  	canvasColor: "#CFD8DC",
+  	canvasColor: "#F0FAFF",
   	textColor: "#263238",
-  	secondaryTextColor: "#FFFFFF",
-    alternateTextColor: "#FFFFFF"
+  	secondaryTextColor: "#F0FAFF",
+    alternateTextColor: "#F0FAFF"
   }
 });
 

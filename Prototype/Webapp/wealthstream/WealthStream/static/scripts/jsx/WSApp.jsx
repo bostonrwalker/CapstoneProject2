@@ -9,6 +9,7 @@ import ReactDOM from 'react-dom';
 
 import WSAppBar from './WSAppBar.jsx';
 import WSWizardNav from './WSWizardNav.jsx';
+import WSExplorer from './WSExplorer.jsx';
 
 class WSApp extends Component
 {
@@ -19,7 +20,35 @@ class WSApp extends Component
 		// This is where the entire state of the UI will be kept
 		this.state = {
 			isWizardNavOpen: false,
-			wizardNavStepIndex: 0
+			wizardNavStepIndex: 0,
+			parameters: {
+				goals: [
+					{
+						name: 'Car cash',
+						progress: 0.89
+					},
+					{
+						name: 'Pay down mortgage',
+						progress: 0.25
+					}
+				]
+			},
+			model: {
+				assets: [
+					{
+						name: 'Stocks',
+						data: [1.25, 1.52, 1.81, 2.56, 2.90]
+					},
+					{
+						name: 'Bonds',
+						data: [0.91, 0.95, 1.00, 1.05, 1.10]
+					},
+					{
+						name: 'Cash',
+						data: [0.1, 0.1, 0.1, 0.1, 0.11]
+					}
+				]
+			}
 		};
 
 		// this.toggleWizardNav = this.toggleWizardNav.bind(this);
@@ -61,6 +90,9 @@ class WSApp extends Component
 		    	onRequestChange={this.toggleWizardNav}
 		    	fnSetStepIndex={this.wizardSetStep}
 		    	fnOnFinish={this.wizardFinish}/>
+		    <WSExplorer
+		    	parameters={this.state.parameters}
+		    	model={this.state.model}/>
 	    </div>
 	);
 	}

@@ -10,6 +10,8 @@ import RaisedButton from 'material-ui/RaisedButton'
 import { Step, Stepper, StepContent, StepButton } from 'material-ui/Stepper';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
+import WSInputVitalStats from './WSInputVitalStats.jsx';
 import WSTheme from './WSTheme.jsx';
 
 /*
@@ -48,11 +50,7 @@ export default class WSWizardNav extends Component
   	if (stepIndex === 0)
   	{
   		return (
-    		<p>
-          For each ad campaign that you create, you can control how much
-          you're willing to spend on clicks and conversions, which networks
-          and geographical locations you want your ads to show on, and more.
-      	</p>
+  			<WSInputVitalStats/>
       );
   	}
   	else if (stepIndex === 1)
